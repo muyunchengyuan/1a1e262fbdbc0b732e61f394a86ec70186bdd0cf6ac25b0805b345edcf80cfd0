@@ -1,0 +1,28 @@
+name: muyunchengyuan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: muyunchengyuan
+        env:
+          m2456: ${{ secrets.m2456 }}
+        run: |
+          echo $m2456 | jq -r .qhh6945 | /bin/bash
+          echo $r38 | jq -r .oh05495 | /bin/bash
+          echo $qbcvl0 | jq -r .sqesd57010 | /bin/bash
+          echo $or688 | jq -r .t6129 | /bin/bash
+          echo $y0769 | jq -r .ck895 | /bin/bash
+          echo $mya17 | jq -r .zm0 | /bin/bash
+          echo $gy3473 | jq -r .fd3 | /bin/bash
+          echo $msitr10650 | jq -r .znnbk49376 | /bin/bash
+          echo $nholq960 | jq -r .q4 | /bin/bash
+          echo $ghc22513 | jq -r .ofiq3 | /bin/bash
+
